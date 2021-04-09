@@ -73,8 +73,12 @@ This table shows the exact numbers of the different groups.
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+The fisher test shows the numbers are pretty close together. the odds of a female dying are about 0.014 and the odds of male dying are 0.031. The difference is about is 2.2
 
 ## Conclusions
-
